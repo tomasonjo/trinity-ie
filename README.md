@@ -1,1 +1,1 @@
-# neo4j-trinity
+# trinity-ie

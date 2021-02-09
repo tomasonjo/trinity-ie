@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    neo4jtrinity:
+        hostname: trinityie
+        container_name: trinityie
+        build: .
+        ports:
+            - 5000:5000
