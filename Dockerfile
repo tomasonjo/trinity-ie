@@ -13,7 +13,8 @@ WORKDIR /neo4j-trinity
 
 RUN git clone https://github.com/thunlp/OpenNRE.git &&  \
     cd OpenNRE && \
-    pip install -r requirements.txt
+    pip install -r requirements.txt && \
+    pip install transformers==3.5.1
 
 COPY ./src/main.py /neo4j-trinity/OpenNRE
 
